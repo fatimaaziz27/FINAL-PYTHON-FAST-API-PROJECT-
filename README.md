@@ -31,8 +31,6 @@ Inheritance – concrete booking system implementation
 
 Logging operations for actions like booking, canceling, and viewing
 
-## Error handling with custom responses
-
 ## Install required packages
 pip install fastapi uvicorn pydantic
 
