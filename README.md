@@ -77,22 +77,3 @@ Uvicorn – ASGI server
 
 Pydantic – Data validation and serialization
 
-## Project Members
-
-Fatima Aziz
-
-Hadiya Ahmed
-
-Ayesha Aziz
-
- ## Future Enhancements
-
-Add database integration (SQLite/PostgreSQL) for persistent storage
-
-Add authentication and user roles
-
-Create a frontend interface using React/Vue.js
-
-Email confirmation for bookings
-
-Add seat selection map for buses
