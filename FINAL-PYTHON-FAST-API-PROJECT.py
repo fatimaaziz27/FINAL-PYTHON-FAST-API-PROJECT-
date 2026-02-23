@@ -289,12 +289,13 @@ def get_bookings():
 
 # === APPLICATION RUNNER ===
 if __name__ == "__main__":
-    print("🚌 Starting Bus Booking System API...")
-    print("📋 Available endpoints:")
+    print(" Starting Bus Booking System API...")
+    print(" Available endpoints:")
     print("  • GET  /buses     - View bus schedules")
     print("  • POST /bookings  - Book tickets")
     print("  • GET  /bookings  - View bookings")
     print("  • DELETE /bookings - Cancel bookings")
     print("\n🌐 Access API docs at: http://localhost:8000/docs")
     
+
     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
